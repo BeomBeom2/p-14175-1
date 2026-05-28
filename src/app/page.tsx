@@ -1,12 +1,11 @@
+"use client";
+
 export default function Page() {
   return (
     <>
-      <h1>글 목록</h1>
-
-      <ul>
-        <li>명언 1</li>
-        <li>명언 2</li>
-      </ul>
+      <div className="flex-1 flex items-center justify-center">
+        <span>명언앱 입니다.</span>
+      </div>
     </>
   );
 }
